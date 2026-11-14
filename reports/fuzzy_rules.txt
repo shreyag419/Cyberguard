@@ -1,0 +1,39 @@
+ANN + Fuzzy rules (27)
+IF anomaly is Low AND packet rate is Low AND SYN+RST flags are Low THEN risk is Normal
+IF anomaly is Low AND packet rate is Low AND SYN+RST flags are Medium THEN risk is Normal
+IF anomaly is Low AND packet rate is Low AND SYN+RST flags are High THEN risk is Suspicious
+IF anomaly is Low AND packet rate is Medium AND SYN+RST flags are Low THEN risk is Normal
+IF anomaly is Low AND packet rate is Medium AND SYN+RST flags are Medium THEN risk is Suspicious
+IF anomaly is Low AND packet rate is Medium AND SYN+RST flags are High THEN risk is Suspicious
+IF anomaly is Low AND packet rate is High AND SYN+RST flags are Low THEN risk is Suspicious
+IF anomaly is Low AND packet rate is High AND SYN+RST flags are Medium THEN risk is Suspicious
+IF anomaly is Low AND packet rate is High AND SYN+RST flags are High THEN risk is Suspicious
+IF anomaly is Medium AND packet rate is Low AND SYN+RST flags are Low THEN risk is Suspicious
+IF anomaly is Medium AND packet rate is Low AND SYN+RST flags are Medium THEN risk is Suspicious
+IF anomaly is Medium AND packet rate is Low AND SYN+RST flags are High THEN risk is High Risk
+IF anomaly is Medium AND packet rate is Medium AND SYN+RST flags are Low THEN risk is Suspicious
+IF anomaly is Medium AND packet rate is Medium AND SYN+RST flags are Medium THEN risk is High Risk
+IF anomaly is Medium AND packet rate is Medium AND SYN+RST flags are High THEN risk is High Risk
+IF anomaly is Medium AND packet rate is High AND SYN+RST flags are Low THEN risk is High Risk
+IF anomaly is Medium AND packet rate is High AND SYN+RST flags are Medium THEN risk is High Risk
+IF anomaly is Medium AND packet rate is High AND SYN+RST flags are High THEN risk is Critical
+IF anomaly is High AND packet rate is Low AND SYN+RST flags are Low THEN risk is High Risk
+IF anomaly is High AND packet rate is Low AND SYN+RST flags are Medium THEN risk is Critical
+IF anomaly is High AND packet rate is Low AND SYN+RST flags are High THEN risk is Critical
+IF anomaly is High AND packet rate is Medium AND SYN+RST flags are Low THEN risk is Critical
+IF anomaly is High AND packet rate is Medium AND SYN+RST flags are Medium THEN risk is Critical
+IF anomaly is High AND packet rate is Medium AND SYN+RST flags are High THEN risk is Critical
+IF anomaly is High AND packet rate is High AND SYN+RST flags are Low THEN risk is Critical
+IF anomaly is High AND packet rate is High AND SYN+RST flags are Medium THEN risk is Critical
+IF anomaly is High AND packet rate is High AND SYN+RST flags are High THEN risk is Critical
+
+Fuzzy-alone rules (9)
+IF packet rate is Low AND SYN+RST flags are Low THEN risk is Normal
+IF packet rate is Low AND SYN+RST flags are Medium THEN risk is Normal
+IF packet rate is Low AND SYN+RST flags are High THEN risk is Suspicious
+IF packet rate is Medium AND SYN+RST flags are Low THEN risk is Normal
+IF packet rate is Medium AND SYN+RST flags are Medium THEN risk is Suspicious
+IF packet rate is Medium AND SYN+RST flags are High THEN risk is High Risk
+IF packet rate is High AND SYN+RST flags are Low THEN risk is Suspicious
+IF packet rate is High AND SYN+RST flags are Medium THEN risk is High Risk
+IF packet rate is High AND SYN+RST flags are High THEN risk is Critical

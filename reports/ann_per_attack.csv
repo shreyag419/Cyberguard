@@ -1,0 +1,15 @@
+split,label,rows,detected,detection_rate
+test (known),Bot,974,0,0.0
+test (known),DDoS,5000,1427,0.2854
+test (known),DoS GoldenEye,5000,197,0.0394
+test (known),DoS Slowhttptest,2614,2210,0.8454475899005356
+test (known),DoS slowloris,2687,2433,0.9054707852623743
+test (known),FTP-Patator,2966,1,0.00033715441672285906
+test (known),Heartbleed,6,5,0.8333333333333334
+test (known),Infiltration,18,7,0.3888888888888889
+test (known),SSH-Patator,1610,6,0.0037267080745341614
+test (known),Web Attack --- Brute Force,735,0,0.0
+test (known),Web Attack --- Sql Injection,11,0,0.0
+test (known),Web Attack --- XSS,326,0,0.0
+unseen (zero-day),DoS Hulk,10000,8251,0.8251
+unseen (zero-day),PortScan,10000,95,0.0095

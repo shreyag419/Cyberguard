@@ -1,0 +1,16 @@
+group,label,rows,Normal,Suspicious,High Risk,Critical
+test,BENIGN,45000,78.89,20.88,0.22,0.02
+test,Bot,974,62.53,37.47,0.0,0.0
+test,DDoS,5000,21.12,78.74,0.14,0.0
+test,DoS GoldenEye,5000,91.4,8.6,0.0,0.0
+test,DoS Slowhttptest,2614,4.06,93.99,1.95,0.0
+test,DoS slowloris,2687,3.46,93.0,3.54,0.0
+test,FTP-Patator,2966,66.59,33.18,0.24,0.0
+test,Heartbleed,6,0.0,16.67,83.33,0.0
+test,Infiltration,18,16.67,44.44,38.89,0.0
+test,SSH-Patator,1610,95.4,4.35,0.25,0.0
+test,Web Attack --- Brute Force,735,90.34,9.66,0.0,0.0
+test,Web Attack --- Sql Injection,11,72.73,27.27,0.0,0.0
+test,Web Attack --- XSS,326,96.63,3.37,0.0,0.0
+unseen,DoS Hulk,10000,14.81,55.67,29.52,0.0
+unseen,PortScan,10000,8.06,91.89,0.05,0.0

@@ -1,0 +1,14 @@
+metric,value
+epochs_trained,60.0
+best_epoch,60.0
+best_val_mse,0.0014984092399945269
+alert_threshold,0.5
+test_auc,0.9309912283632793
+test_precision,0.9329177797566043
+test_detection_rate_recall,0.2864172779878799
+test_f1,0.43827784556388355
+test_false_positive_rate,0.010044444444444444
+test_false_negative_rate,0.7135827220121201
+unseen_auc,0.9385520433333333
+unseen_detection_rate,0.4173
+ms_per_1000_flows,3.4148983524607623
